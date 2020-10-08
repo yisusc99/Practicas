@@ -1,0 +1,17 @@
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\bin\Debug\netcoreapp3.1\PComponentes.exe
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\bin\Debug\netcoreapp3.1\PComponentes.deps.json
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\bin\Debug\netcoreapp3.1\PComponentes.runtimeconfig.json
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\bin\Debug\netcoreapp3.1\PComponentes.runtimeconfig.dev.json
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\bin\Debug\netcoreapp3.1\PComponentes.dll
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\bin\Debug\netcoreapp3.1\PComponentes.pdb
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\obj\Debug\netcoreapp3.1\PComponentes.csprojAssemblyReference.cache
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\obj\Debug\netcoreapp3.1\PControlesForm.Inicio.resources
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\obj\Debug\netcoreapp3.1\PControlesForm.Comp.resources
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\obj\Debug\netcoreapp3.1\PControlesForm.Form3.resources
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\obj\Debug\netcoreapp3.1\PComponentes.csproj.GenerateResource.cache
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\obj\Debug\netcoreapp3.1\PComponentes.AssemblyInfoInputs.cache
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\obj\Debug\netcoreapp3.1\PComponentes.AssemblyInfo.cs
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\obj\Debug\netcoreapp3.1\PComponentes.csproj.CoreCompileInputs.cache
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\obj\Debug\netcoreapp3.1\PComponentes.dll
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\obj\Debug\netcoreapp3.1\PComponentes.pdb
+C:\Users\Yisus\source\repos\PComponentes\PComponentes\obj\Debug\netcoreapp3.1\PComponentes.genruntimeconfig.cache
