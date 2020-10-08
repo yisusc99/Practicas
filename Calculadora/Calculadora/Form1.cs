@@ -104,7 +104,6 @@ namespace Calculadora
             if (TB.Text != "" && bandera)
             {
                 n2 = Convert.ToInt32(TB.Text);
-                 
                 TB.Text = Operacion(operacion).ToString();
             }
         }

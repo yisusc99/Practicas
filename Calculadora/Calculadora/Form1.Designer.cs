@@ -44,7 +44,7 @@
             this.bpor = new System.Windows.Forms.Button();
             this.bigual = new System.Windows.Forms.Button();
             this.TB = new System.Windows.Forms.TextBox();
-            this.limpiar = new System.Windows.Forms.Button();
+            this.CE = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // b1
@@ -206,22 +206,22 @@
             this.TB.Size = new System.Drawing.Size(317, 69);
             this.TB.TabIndex = 2;
             // 
-            // limpiar
+            // CE
             // 
-            this.limpiar.Location = new System.Drawing.Point(193, 178);
-            this.limpiar.Name = "limpiar";
-            this.limpiar.Size = new System.Drawing.Size(56, 23);
-            this.limpiar.TabIndex = 1;
-            this.limpiar.Text = "CE";
-            this.limpiar.UseVisualStyleBackColor = true;
-            this.limpiar.Click += new System.EventHandler(this.limpiar);
+            this.CE.Location = new System.Drawing.Point(193, 178);
+            this.CE.Name = "CE";
+            this.CE.Size = new System.Drawing.Size(56, 23);
+            this.CE.TabIndex = 3;
+            this.CE.Text = "CE";
+            this.CE.UseVisualStyleBackColor = true;
+            this.CE.Click += new System.EventHandler(this.limpiar);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(336, 217);
-            this.Controls.Add(this.limpiar);
+            this.Controls.Add(this.CE);
             this.Controls.Add(this.TB);
             this.Controls.Add(this.bigual);
             this.Controls.Add(this.bpor);
@@ -264,7 +264,8 @@
         private System.Windows.Forms.Button bpor;
         private System.Windows.Forms.Button bigual;
         private System.Windows.Forms.TextBox TB;
-        private System.Windows.Forms.Button limpiar;
+        private System.Windows.Forms.Button limpia;
+        private System.Windows.Forms.Button CE;
     }
 }
 
