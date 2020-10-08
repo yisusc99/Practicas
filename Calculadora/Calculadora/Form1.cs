@@ -26,6 +26,15 @@ namespace Calculadora
                 case "suma":
                     resultado = n1 + n2;
                    break;
+                case "resta":
+                    resultado = n1 - n2;
+                    break;
+                case "div":
+                    resultado = n1 / n2;
+                    break;
+                case "mult":
+                    resultado = n1 * n2;
+                    break;
             }
             return resultado;
         }
@@ -92,7 +101,12 @@ namespace Calculadora
 
         private void bigual_Click(object sender, EventArgs e)
         {
-            
+            if (TB.Text != "" && bandera)
+            {
+                n2 = Convert.ToInt32(TB.Text);
+                 
+                TB.Text = Operacion(operacion).ToString();
+            }
         }
 
         private void bmas_Click(object sender, EventArgs e)
@@ -102,24 +116,47 @@ namespace Calculadora
             {
                 n1 = Convert.ToDouble(TB.Text);
                 TB.Text = "";
-                bandera = true;
                 operacion = "suma";
             }
         }
 
         private void bmens_Click(object sender, EventArgs e)
         {
-
+            if (bandera)
+            {
+                n1 = Convert.ToDouble(TB.Text);
+                TB.Text = "";
+                operacion = "resta";
+            }
         }
 
         private void bdiv_Click(object sender, EventArgs e)
         {
+            if (bandera)
+            {
+                n1 = Convert.ToDouble(TB.Text);
+                TB.Text = "";
+                operacion = "div";
+            }
+        }
 
+        private void limpiar(object sender, EventArgs e)
+        {
+            TB.Text = "";
+            n1 = 0.0;
+            n2 = 0.0;
+            resultado = 0.0;
+            bandera = false;
         }
 
         private void bpor_Click(object sender, EventArgs e)
         {
-
+            if (bandera)
+            {
+                n1 = Convert.ToDouble(TB.Text);
+                TB.Text = "";
+                operacion = "mult";
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
