@@ -101,7 +101,7 @@ namespace Calculadora
 
         private void bigual_Click(object sender, EventArgs e)
         {
-            if (TB.Text != "" && bandera)
+            if (bandera)
             {
                 n2 = Convert.ToInt32(TB.Text);
                 TB.Text = Operacion(operacion).ToString();
@@ -142,9 +142,10 @@ namespace Calculadora
         private void limpiar(object sender, EventArgs e)
         {
             TB.Text = "";
-            n1 = 0.0;
-            n2 = 0.0;
-            resultado = 0.0;
+            n1 = 0;
+            n2 = 0;
+            resultado = 0;
+            operacion = "";
             bandera = false;
         }
 
